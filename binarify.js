@@ -1,5 +1,5 @@
 function switchToBinary(portion, match) {
-	let i = parseInt(match, 10);
+	let i = parseFloat(match, 10);
 	let b = i.toString(2);
 	return b;
 }
