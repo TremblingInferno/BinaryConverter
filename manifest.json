@@ -1,19 +1,24 @@
 {
-  "manifest_version": 2,
-  "name": "BinaryConverter",
-  "version": "1.0",
+	"manifest_version": 2,
+	"name": "BinaryConverter",
+	"version": "1.0",
 
-  "description": "Converts integers on screen to binary.",
+	"description": "Converts integers on screen to binary.",
 
-  "icons": {
-    "48": "icons/icon.png"
-  },
+	"icons": {
+		"48": "icons/icon.png"
+	},
 
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["./findAndReplaceDOMText.js", "./binarify.js"]
-    }
-  ]
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["./findAndReplaceDOMText.js", "./binarify.js"]
+		}
+	],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "binary_converter@tremblinginferno.com"
+		}
+	}
 }
 
