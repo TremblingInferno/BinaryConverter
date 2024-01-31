@@ -1,7 +1,7 @@
 # Binary Converter Extension
 This is an extension that can be added to chrome or firefox, that converts each number displayed into its binary equivalent.
 
-### Radix appriximations
+### Radix approximations
 It uses r-notation to denote repeating numerals after the radix point. Unfortunately, most decimal representations don't have a way to indicate this repetition, so it has to guess.
 Here is the radix approximator in action
 ![1/7](screen_shots/screen2.png)
@@ -27,8 +27,10 @@ Unfortunately, the extension will have to be reloaded everytime you open a new f
 ### Chrome:
 Go to `chrome://extensions` turn on developer mode,
 ![dev_mode](screen_shots/dev_mode.png)
+
 click "Load unpacked", 
 ![load unpacked](screen_shots/load_unpacked.png)
-and select the folder you installed.
 
+and select the folder you installed.
+You will get a warning that says Unrecognized manifest key 'browser_specific_settings', but that won't affect the performance of the extension.
 
