@@ -13,7 +13,7 @@
 		{
 			"matches": ["<all_urls>"],
 			"js": ["scripts/lucillian_font.js","scripts/binary_fractions.js", "scripts/findAndReplaceDOMText.js", "scripts/binarify.js"],
-			"css": ["scripts/LucillianFont.css"]
+			"css": ["scripts/lucillian_font.css"]
 		}
 	],
 	"browser_specific_settings": {
