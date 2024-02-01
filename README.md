@@ -1,5 +1,10 @@
 # Binary Converter Extension
 This is an extension that can be added to chrome or firefox, that converts each number displayed into its binary equivalent.
+### Lucillian Binary Font
+
+![list of prime numbers in lucillian font](screen_shots/lucillian_font.png)
+
+You can download this font here: [Lucillian Font](https://github.com/Lexxic/lucillian-binary-font)
 
 ### Radix approximations
 It uses r-notation to denote repeating numerals after the radix point. Unfortunately, most decimal representations don't have a way to indicate this repetition, so it has to guess.
