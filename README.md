@@ -2,7 +2,7 @@
 This is an extension that can be added to chrome or firefox, that converts each number displayed into its binary equivalent.
 ### Lucillian Binary Font
 
-![list of prime numbers in lucillian font](screen_shots/lucillian_font.png)
+![list of prime numbers in lucillian font](screen_shots/lucillian_font_2.png)
 
 You can download this font here: [Lucillian Font](https://github.com/TremblingInferno/lucillian-binary-font)
 
