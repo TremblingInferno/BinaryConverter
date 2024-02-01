@@ -48,7 +48,7 @@ var Detector = function() {
 let d = new Detector();
 const usingLucillian = d.detect('Lucillian Binary')
 
-function seperate_groups(bnum, group_num){
+function seperate_groups(bnum){
 	if (!usingLucillian)
 		return bnum;
 
@@ -69,4 +69,27 @@ function seperate_groups(bnum, group_num){
 
 	return b_joined;
 }
+
+function post_radix_groups(bnum){
+	if (!usingLucillian)
+		return bnum;
+	let bnums = bnum.split(/([10]{0,4}|r|.)/g);
+	const GroupSep = "";
+	const GroupIns = "\_";
+
+	let n = [];
+	for (group of bnums){
+		n.push(group.split("").join(GroupIns));
+	}
+
+	let b_joined = n.join(GroupSep);
+	return b_joined;
+
+}
+
+
+
+
+
+
 
