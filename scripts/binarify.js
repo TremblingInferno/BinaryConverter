@@ -12,6 +12,10 @@ findAndReplaceDOMText(document.body, {
 
 
 function switchToBinary(portion, match) {
+	if (parseFloat(match) == 0 || isNaN(parseFloat(match))){
+		console.log(match);
+		return seperate_groups(match[0]);
+	}
 	let bf = get_fraction(match, 8);
 
 	let i = parseInt(match, 10);

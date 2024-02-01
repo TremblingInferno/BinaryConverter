@@ -120,7 +120,7 @@
 		address:1, article:1, aside:1, blockquote:1, dd:1, div:1,
 		dl:1, fieldset:1, figcaption:1, figure:1, footer:1, form:1, h1:1, h2:1, h3:1,
 		h4:1, h5:1, h6:1, header:1, hgroup:1, hr:1, main:1, nav:1, noscript:1, ol:1,
-		output:1, p:1, pre:1, section:1, ul:1, sup:1,
+		output:1, p:1, pre:1, section:1, ul:1, sup:1, b:1,
 		// Other misc. elements that are not part of continuous inline prose:
 		br:1, li: 1, summary: 1, dt:1, details:1, rp:1, rt:1, rtc:1,
 		// Media / Source elements:
