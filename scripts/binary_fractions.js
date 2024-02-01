@@ -7,7 +7,6 @@ function get_fraction(f, ERR) {
 	if (fr == undefined){
 		return "";
 	}
-	console.log(fr);
 	let num = parseInt(fr);
 	if (isNaN(num)){
 		return f;
