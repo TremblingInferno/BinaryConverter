@@ -74,6 +74,10 @@ function post_radix_groups(bnum){
 	if (!usingLucillian)
 		return bnum;
 	let bnums = bnum.split(/([10]{0,4}|r|.)/g);
+	console.log(bnums);
+	if ((bnums[1] == "" && bnums[2] == "r") || bnums[1] == "r"){
+		bnums[0] = "";
+	}
 	const GroupSep = "";
 	const GroupIns = "\_";
 
