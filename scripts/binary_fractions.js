@@ -9,7 +9,7 @@ function get_fraction(f, ERR) {
 	}
 	let num = parseInt(fr);
 	if (isNaN(num)){
-		return f;
+		return "";
 	}
 	let den = Math.pow(10, fr.length);
 
